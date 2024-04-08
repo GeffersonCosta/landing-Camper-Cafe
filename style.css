@@ -36,7 +36,6 @@ h2{
 h1, h2, p{
    
    text-align: center;
-   
 }
 img{
    display: block;
@@ -53,13 +52,22 @@ img{
 .drink{
     float: left;
 }
-footer{
-  
-    font-size: 14px;
-}
 footer a p{
     padding: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+    font-family:Arial, Helvetica, sans-serif;
+   
 }
+footer a{
+    text-decoration: none;
+}
+footer a p:hover{
+    color:#480003;
+}
+
 footer a:hover{
-    color: #480003;
+    color:#AD2C2C;
+    
 }
